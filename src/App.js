@@ -7,9 +7,9 @@ import Technology from "./contents/technology/Technology";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/space-page-project">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/space-page-project" element={<Home />} />
           <Route path="/destination" element={<Destination />} />
           <Route path="/crew" element={<Crew />} />
           <Route path="/technology" element={<Technology />} />

@@ -23,7 +23,7 @@ const Home = () => {
           </div>
         </div>
         <div className=" order-1 lg:order-2 flex justify-center items-center">
-          <div className=" font-exo  flex justify-center cursor-pointer hover:scale-125 hover:opacity-50 duration-300 items-center h-52 w-52 rounded-full bg-white text-black uppercase">
+          <div className=" font-exo tracking-widest flex justify-center cursor-pointer hover:scale-125 hover:opacity-50 duration-300 items-center h-52 w-52 rounded-full bg-white text-black uppercase">
             <a href="#">Explore</a>
           </div>
         </div>
