@@ -22,7 +22,7 @@ const Destination = () => {
       <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         01 Pick your destination
       </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 ">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 lg:py-10 ">
         <div className=" flex justify-center lg:justify-start items-center">
           <img
             src={images[page.destination_name]}

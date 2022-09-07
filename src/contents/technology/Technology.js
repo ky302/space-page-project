@@ -20,7 +20,7 @@ const Technology = () => {
       <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         03 Space launch 101
       </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 ">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 lg:py-10 ">
         <div className=" order-2 lg:order-1 flex gap-8 justify-center items-center rounded-xl relative">
           <div className="flex flex-col gap-y-8 text-white pt-28 lg:pt-0 pl-6 lg:pl-0 text-2xl">
             <button
