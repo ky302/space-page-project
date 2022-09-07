@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/space-page-project/static/css/main.462190cd.css",
-    "main.js": "/space-page-project/static/js/main.a1cf9fc3.js",
+    "main.css": "/space-page-project/static/css/main.8adb9f3d.css",
+    "main.js": "/space-page-project/static/js/main.f8273947.js",
     "static/js/787.82092441.chunk.js": "/space-page-project/static/js/787.82092441.chunk.js",
     "static/media/image-victor-glover.png": "/space-page-project/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/space-page-project/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -19,12 +19,12 @@
     "static/media/image-launch-vehicle-portrait.jpg": "/space-page-project/static/media/image-launch-vehicle-portrait.0c758955a178bdcc3230.jpg",
     "index.html": "/space-page-project/index.html",
     "static/media/logo.svg": "/space-page-project/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.462190cd.css.map": "/space-page-project/static/css/main.462190cd.css.map",
-    "main.a1cf9fc3.js.map": "/space-page-project/static/js/main.a1cf9fc3.js.map",
+    "main.8adb9f3d.css.map": "/space-page-project/static/css/main.8adb9f3d.css.map",
+    "main.f8273947.js.map": "/space-page-project/static/js/main.f8273947.js.map",
     "787.82092441.chunk.js.map": "/space-page-project/static/js/787.82092441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.462190cd.css",
-    "static/js/main.a1cf9fc3.js"
+    "static/css/main.8adb9f3d.css",
+    "static/js/main.f8273947.js"
   ]
 }
