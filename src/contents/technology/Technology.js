@@ -15,7 +15,7 @@ const Technology = () => {
   const [techImg, setTechImg] = useState(0);
   const page = TechData[techImg];
   return (
-    <div id="tech" className=" bg-techb">
+    <div id="tech" className=" bg-techb py-4 w-full h-full">
       <NavigasiBar />
       <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         03 Space launch 101
@@ -26,7 +26,7 @@ const Technology = () => {
             <button
               className={`${
                 techImg === 0 ? "active" : ""
-              } border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline `}
+              } border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md hover:bg-white/80 hover:text-black focus:bg-white/80 focus:text-black outline `}
               onClick={() => {
                 setTechImg(0);
               }}
@@ -36,7 +36,7 @@ const Technology = () => {
             <button
               className={`${
                 techImg === 1 ? "active" : ""
-              }border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline`}
+              }border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md hover:bg-white/80 hover:text-black focus:bg-white/80 focus:text-black outline`}
               onClick={() => {
                 setTechImg(1);
               }}
@@ -46,7 +46,7 @@ const Technology = () => {
             <button
               className={`${
                 techImg === 2 ? "active" : ""
-              }border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline`}
+              }border-1 rounded-full w-10 h-10 lg:w-20 lg:h-20 focus:backdrop-blur-md hover:bg-white/80 hover:text-black focus:bg-white/80 focus:text-black outline`}
               onClick={() => {
                 setTechImg(2);
               }}

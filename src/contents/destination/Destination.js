@@ -17,9 +17,9 @@ const Destination = () => {
   const [desti, setDesti] = useState(0);
   const page = DestinationData[desti];
   return (
-    <div id="des" className=" bg-destination">
+    <div id="des" className=" bg-destination py-4 w-full h-full">
       <NavigasiBar />
-      <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-2">
+      <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         01 Pick your destination
       </h1>
       <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 ">
@@ -27,7 +27,7 @@ const Destination = () => {
           <img
             src={images[page.destination_name]}
             alt="moon"
-            className=" max-h-80"
+            className=" max-h-80 animate-spin-slow2"
           />
         </div>
 

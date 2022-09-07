@@ -18,9 +18,9 @@ const Crew = () => {
   const currentPage = crewData[crewImg];
 
   return (
-    <div id="des" className=" bg-destination">
+    <div id="des" className=" bg-destination py-4 w-full h-full">
       <NavigasiBar />
-      <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-2">
+      <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         01 Meet Your Crew
       </h1>
       <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 ">
@@ -46,7 +46,7 @@ const Crew = () => {
             <button
               className={`${
                 crewImg === 0 ? "active" : ""
-              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline `}
+              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md hover:bg-white/80 focus:bg-white/80 focus:text-black outline `}
               onClick={() => {
                 setCrewImg(0);
               }}
@@ -56,7 +56,7 @@ const Crew = () => {
             <button
               className={`${
                 crewImg === 1 ? "active" : ""
-              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline`}
+              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md hover:bg-white/80 focus:bg-white/80 focus:text-black outline`}
               onClick={() => {
                 setCrewImg(1);
               }}
@@ -66,7 +66,7 @@ const Crew = () => {
             <button
               className={`${
                 crewImg === 2 ? "active" : ""
-              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline`}
+              } border-1 rounded-full w-5 h-5 focus:backdrop-blur-md hover:bg-white/80 focus:bg-white/80 focus:text-black outline`}
               onClick={() => {
                 setCrewImg(2);
               }}
@@ -76,7 +76,7 @@ const Crew = () => {
             <button
               className={`${
                 crewImg === 3 ? "active" : ""
-              }border-1 rounded-full w-5 h-5 focus:backdrop-blur-md focus:bg-white/80 focus:text-black outline`}
+              }border-1 rounded-full w-5 h-5 focus:backdrop-blur-md hover:bg-white/80 focus:bg-white/80 focus:text-black outline`}
               onClick={() => {
                 setCrewImg(3);
               }}

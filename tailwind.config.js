@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         exo: "'Exo', sans-serif",
       },
+      animation: {
+        "spin-slow": "spin 5s linear infinite",
+        "spin-slow2": "spin 40s linear infinite",
+      },
     },
   },
   plugins: [],
