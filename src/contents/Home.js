@@ -3,7 +3,7 @@ import NavigasiBar from "./NavigasiBar";
 
 const Home = () => {
   return (
-    <div id="des" className=" bg-hero py-4 w-full h-screen overflow-auto">
+    <div id="des" className=" bg-hero w-full h-screen overflow-auto ">
       <NavigasiBar />
 
       <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto py-6 lg:pt-20 ">
