@@ -17,7 +17,7 @@ const Destination = () => {
   const [desti, setDesti] = useState(0);
   const page = DestinationData[desti];
   return (
-    <div id="des" className=" bg-destination py-4 w-full h-full">
+    <div id="des" className=" bg-destination py-4 w-full h-screen overflow-auto">
       <NavigasiBar />
       <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         01 Pick your destination

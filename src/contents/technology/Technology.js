@@ -15,7 +15,7 @@ const Technology = () => {
   const [techImg, setTechImg] = useState(0);
   const page = TechData[techImg];
   return (
-    <div id="tech" className=" bg-techb py-4 w-full h-full">
+    <div id="tech" className=" bg-techb py-4 w-full h-screen overflow-auto">
       <NavigasiBar />
       <h1 className=" flex  items-center justify-center lg:justify-start max-w-5xl mx-auto text-white text-2xl tracking-widest font-exo py-4">
         03 Space launch 101
